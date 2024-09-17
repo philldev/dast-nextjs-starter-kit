@@ -12,8 +12,6 @@ export default async function Dashboard() {
     user: { username, name },
   } = session;
 
-  console.log(session);
-
   return (
     <div className="min-h-dvh">
       <main className="max-w-screen-lg mx-auto w-full p-4 lg:py-10">
