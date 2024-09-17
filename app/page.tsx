@@ -12,7 +12,9 @@ export default function Home() {
         </div>
 
         <div className="flex-1 flex items-center justify-end">
-          <Button size="sm">Login</Button>
+          <Button size="sm" asChild>
+            <Link href="/login">Login</Link>
+          </Button>
         </div>
       </header>
       <main className="max-w-screen-lg mx-auto w-full p-4">
