@@ -1,9 +1,21 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-dvh p-10">
-      <main className="max-w-screen-2xl mx-auto px-4 py-16 sm:px-6 lg:px-8 flex flex-col rounded-xl">
+    <div className="min-h-dvh">
+      <header className="max-w-screen-lg px-4 mx-auto flex w-full items-center py-4">
+        <div>
+          <Link href="/" className="font-bold">
+            Acme
+          </Link>
+        </div>
+
+        <div className="flex-1 flex items-center justify-end">
+          <Button size="sm">Login</Button>
+        </div>
+      </header>
+      <main className="max-w-screen-lg mx-auto w-full p-4">
         <div className="flex flex-col gap-2 mb-2">
           <h1 className="text-4xl font-bold">Nextjs Starter kit</h1>
         </div>
