@@ -1,6 +1,7 @@
 {
-  "name": "das-starter-kit",
-  "version": "0.1.0",
+  "name": "dast-starter-kit",
+  "description": "A starter kit for Next.js with Tailwindcss (Style), Drizzle (DB), Shadcnui (UI), and AuthJs (Auth)",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
