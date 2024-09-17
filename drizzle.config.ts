@@ -12,8 +12,8 @@ if (!process.env.DATABASE_URL) {
 export default defineConfig({
   driver: "turso",
   dialect: "sqlite",
-  schema: "./db/schema.ts",
-  out: "./db/migrations",
+  schema: "./lib/db/schema.ts",
+  out: "./lib/db/migrations",
   dbCredentials: {
     url: process.env.DATABASE_URL,
     authToken: process.env.DATABASE_AUTH_TOKEN!,
